@@ -34,6 +34,7 @@ plot with plotly
 ```
 python plot_csv.py
 ```
+![Alt plot_result](https://github.com/sumandari/scoring_grid/plot_result.png)
 
 ### run scoring
 
