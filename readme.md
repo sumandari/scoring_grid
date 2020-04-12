@@ -13,36 +13,18 @@ algorithm scoring to determine km grid status based on number of user report
 pip install -r requirements.txt
 ```
 
-## create dummy data
+## run plot data
 
 run:
 ```
-python create_csv_randomdata.py
-```
-or set number population
-```
-python create_csv_randomdata.py <population>
+python plot_data
 ```
 output: 
 - dummy_data.csv
+- scoring_data.csv
 
-
-### plot data
-
-plot with plotly
-
-```
-python plot_csv.py
-```
-![Alt plot_result](plot_result.png)
-
-### run scoring
-
-get status km_grid
-
-```
-python status_score.py <count_green> <count_yellow> <count_red> <population>
-```
+![Alt plot_result](weighing.png)
+![Alt plot_result](3dscoring.png)
 
 ## License
 
